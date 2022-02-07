@@ -6,8 +6,9 @@
 // mod day7;
 // mod day8;
 // mod day9;
-mod day10;
+// mod day10;
+mod day11;
 
 fn main(){
-    day10::get_result();
+    day11::get_result();
 }
