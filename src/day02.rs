@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let inp = fs::read_to_string("src/day2.input").expect("Cant read the file");
+    let inp = fs::read_to_string("src/input/day2.input").expect("Cant read the file");
     let mut horizontal = 0;
     let mut depth = 0;
     let mut aim = 0;

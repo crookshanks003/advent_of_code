@@ -38,7 +38,7 @@ impl Visited {
 }
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day12.input").expect("Error in file opening");
+    let inp = fs::read_to_string("src/input/day12.input").expect("Error in file opening");
     let mut nodes: HashMap<&str, Vec<&str>> = HashMap::new();
     let mut visited: Visited = Visited::new();
     let mut to_visit: Vec<&str> = Vec::new();

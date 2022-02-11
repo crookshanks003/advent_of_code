@@ -1,7 +1,7 @@
 use std::{fs, collections::VecDeque};
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day6.input").expect("Cant read file");
+    let inp = fs::read_to_string("src/input/day6.input").expect("Cant read file");
 
     let content: Vec<usize> = inp
         .trim_matches('\n')

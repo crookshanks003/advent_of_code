@@ -2,7 +2,7 @@ use std::fs;
 
 fn main() {
     let mut count = 0;
-    let inp = fs::read_to_string("src/day1.input").expect("Cant read the file");
+    let inp = fs::read_to_string("src/input/day1.input").expect("Cant read the file");
     let content = inp
         .split("\n")
         .filter(|word| word.len() > 0)

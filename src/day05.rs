@@ -89,7 +89,7 @@ fn get_positions(lines: &Vec<Line>) -> u32 {
 }
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day5.input").expect("Cant read the file");
+    let inp = fs::read_to_string("src/input/day5.input").expect("Cant read the file");
     let lines: Vec<Line> = inp
         .split("\n")
         .filter(|l| l.len() > 0)

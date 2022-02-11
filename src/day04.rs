@@ -13,7 +13,7 @@ impl Board {
 }
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day4.input").expect("Cant read the file");
+    let inp = fs::read_to_string("src/input/day4.input").expect("Cant read the file");
 
     let content = inp
         .split("\n\n")

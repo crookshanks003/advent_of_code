@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day10.input").expect("Error in file opening");
+    let inp = fs::read_to_string("src/input/day10.input").expect("Error in file opening");
     let content: Vec<&str> = inp.split("\n").filter(|l| l.len() > 0).collect();
 
     let pairs: HashMap<char, (char, u32)> = HashMap::from([

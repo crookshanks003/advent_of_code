@@ -1,4 +1,4 @@
-// mod day3_1;
+mod day03_1;
 // mod day3_2;
 // mod day4;
 // mod day5;

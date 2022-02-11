@@ -28,7 +28,7 @@ fn get_all_neighbours(x: usize, y: usize) -> Vec<(usize, usize)> {
 }
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day11.input").expect("Error in file opening");
+    let inp = fs::read_to_string("src/input/day11.input").expect("Error in file opening");
     let mut content: Vec<Vec<u32>> = inp
         .split("\n")
         .filter(|l| l.len() > 0)

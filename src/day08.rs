@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day8.input").expect("Error in file opening");
+    let inp = fs::read_to_string("src/input/day8.input").expect("Error in file opening");
     let lines: Vec<(&str, Vec<&str>)> = inp
         .split("\n")
         .filter(|l| l.len() > 0)

@@ -19,7 +19,7 @@ fn part_2(positions: &Vec<i32>) -> i32 {
 }
 
 pub fn get_result() {
-    let inp = fs::read_to_string("src/day7.input").expect("Error in file opening");
+    let inp = fs::read_to_string("src/input/day7.input").expect("Error in file opening");
 
     let mut positions: Vec<i32> = inp
         .trim_matches('\n')
